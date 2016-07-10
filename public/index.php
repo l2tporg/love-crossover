@@ -193,9 +193,6 @@
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="/common/js/script.js"></script>
-<<<<<<< HEAD
   <!-- test ssu -->
-=======
->>>>>>> 040ebaf74507d7ed6be9f9469534ff5eb3c7b6c1
   </body>
 </html>
