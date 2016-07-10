@@ -170,13 +170,19 @@
               </ul>
             </div>
             <div class="contact_form">
-              <form action="mail.php" method="post"><span class="contact_form--row">
+              <form action="mail.php" method="post">
+                <span class="contact_form--row">
                   <label for="exampleInputName1" class="contact_form--label">お名前</label>
-                  <input type="text" id="exampleInputName1" placeholder="お名前" name="name" required="required" class="contact_form--input form-control"/></span><span class="contact_form--row">
+                  <input type="text" id="exampleInputName1" placeholder="お名前" name="name" required="required" class="contact_form--input form-control"/>
+                </span>
+                <span class="contact_form--row">
                   <label for="exampleInputEmail1" class="contact_form--label">メールアドレス</label>
-                  <input type="email" id="exampleInputEmail1" placeholder="メールアドレス" name="email" required="required" class="contact_form--input form-control"/></span><span class="contact_form--row">
+                  <input type="email" id="exampleInputEmail1" placeholder="メールアドレス" name="email" required="required" class="contact_form--input form-control"/>
+                </span>
+                <span class="contact_form--row">
                   <label class="contact_form--label">内容</label>
-                  <textarea rows="3" name="message" required="required" class="contact_form--txtarea form-control"></textarea></span>
+                  <textarea rows="3" title="message" name="message" required="required" class="contact_form--txtarea form-control"></textarea>
+                </span>
                 <button type="submit" value="SEND MESSAGE" class="contact_form--submit btn btn-default">送信</button>
               </form>
             </div>
@@ -187,8 +193,5 @@
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="/common/js/script.js"></script>
-    
-    
-    
   </body>
 </html>
