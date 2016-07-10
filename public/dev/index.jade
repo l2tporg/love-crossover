@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+html(lang="ja")
+  head
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width,initial-scale=1.0")
+    meta(charset="UTF-8")
+    meta(name="description"  content="安城市を中心に活動するとてもゆるいバスケットボールサークル。初心者から中級者までいますが基本的には初心者です。")
+    meta(name="keywords"  content="安城,バスケットボール,初心者,運動")
+    title 愛のクロスオーバー
+    link(rel="stylesheet", href="/common/css/style.css")
+    link(rel="shortcut icon", href="http://love-corssover.sub.jp/common/images/favicon.ico")
+  body(data-foo="52")
+    <?php include_once("analyticstracking.php") ?>
+    .cmn-wrap
+      header#top.cmn-gl_head
+        .cmn-gl_head--in
+          a.cmn-gl_head--logo(href="/")
+            img.cmn-gl_head--pic(src="/common/images/img-gl-head-logo.png", alt="愛のクロスオーバー")
+          nav.cmn-gl_head--nav
+            a#nav_btn.cmn-gl_head--btn_nav(href="")
+            ul.cmn-gl_nav
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#enjoy")
+                  | ENJOY
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#place")
+                  | PLACE
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#matter")
+                  | MATTER
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#recruit")
+                  | RECRUIT
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#faq")
+                  | Q&A
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#contact")
+                  | CONTACT
+      .cmn-content
+        main#m_visual.m_visual
+          span.m_visual--caution
+            | 2016年8月活動予定
+          .m_visual--in
+            h1.m_visual--head
+              | LOVE<br>CROSSOVER
+            .m_visual--description
+              h2.m_visual--catch.
+                PERFORMANCE
+              p.m_visual--txt.
+                最高にクレイジーで、最高にデンジャラス。<br>初心者のためのバスケットボールサークル
+        section#enjoy.cmn-section.cmn-section-enjoy
+          .cmn-section--in
+            .enjoy_box
+              h2.cmn-section--ttl
+                | 一緒にバスケをしよう
+              .cmn-fade_box
+                p.cmn-section--description.
+                  管理人も初心者、バスケ部じゃなくても全然楽しめる！<br>
+                  ドリブルつけなくたってパスがある！<br>
+                  シュート入らなくても、皆入らないから大丈夫！<br>
+                  決して恥じることはありません、誰にも文句言われません。<br>
+                  そんなバスケットサークルを目指してます。
+                aside.cmn-section--supp.
+                  安城市をメインに活動するサークルがなかったため、安城市ユーザーのために今回サークルを立ち上げました。人数的には20名程度(5人×4チーム)で休憩を挟みながらゲームができると理想的です。
+        section#place.cmn-section.cmn-section-place
+          .cmn-section--in
+            .place_box
+              h2.cmn-section--ttl.place_box--ttl
+                | 活動日程・場所
+              .cmn-fade_box
+                .place_content
+                  p.place_content--txt.
+                    活動日程は基本的に毎週土日のどちらかを企画しています。人数が揃ってこれば、土日共に活動をしようと考えています。
+                    現状では人数が少ないため、月初までにメンバーのスケジュールを確認し、コートを予約していきます。<br>
+                    まだ運営がうまく動作していない部分がありますので、その辺はお許し下さい。
+
+                  iframe.place_content--iframe(src="gcalendar-wrapper.php?src=s.iwasaki1112%40gmail.com&ctz=Asia/Tokyo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no")
+                  //
+                    table.place_data
+                      tr.place_data--row
+                        td.place_data--day
+                          | 7月24日(日)
+                        td.place_data--time
+                          | 13:00-17:00
+                        td.place_data--place
+                          | 安城市スポーツセンター
+                          | （午前から流しそうめんのため時間帯変更）
+                      tr.place_data--row
+                        td.place_data--day
+                          | 7月31日(日)
+                        td.place_data--time
+                          | 17:00-21:00
+                        td.place_data--place
+                          | 未定
+
+                  h3.place_content--ttl.
+                    活動拠点
+
+                  ul.place_list
+                    li.place_list--item
+                      a.place_list--link
+                        img.place_list--pic(src="images/img-place-list-pic-01.jpg", alt="安城市スポーツセンター")
+                        strong.place_list--ttl
+                          | 安城市スポーツセンター
+                        span.place_list--address
+                          | 〒446-0061 愛知県安城市新田町新定４１
+                    li.place_list--item
+                      a.place_list--link
+                        img.place_list--pic(src="images/img-place-list-pic-02.jpg", alt="安城市体育館")
+                        strong.place_list--ttl
+                          | 安城市体育館
+                        span.place_list--address
+                          | 〒446-0061 愛知県安城市新田町新定山４１−８
+                    li.place_list--item
+                      a.place_list--link
+                        img.place_list--pic(src="images/img-place-list-pic-03.jpg", alt="明祥中学校　体育館")
+                        strong.place_list--ttl
+                          | 明祥中学校　体育館
+                        span.place_list--address
+                          | 〒444-1213 愛知県安城市東端町住吉１−１２
+                  span.u-note
+                    | ※体育館が抽選やすでに埋まって閉まっている場合があるため、活動拠点は増やしてく予定です。
+
+        section#matter.cmn-section.cmn-section-matter
+          .cmn-section--in
+            .matter_box
+              h2.cmn-section--ttl.matter--ttl
+                | 注意事項
+              ul.matter_list.cmn-fade_box
+                li.matter_list--item
+                  | 怪我をしないように、事前に準備運動はしっかりしましょう。
+                li.matter_list--item
+                  | 初心者が多数います。上級者には強く、初級者に優しく接しましょう。
+                li.matter_list--item
+                  | 女性に対するシュートブロックはセクハラにならない程度に控えめに。
+                li.matter_list--item
+                  | タバコは所定の場所で吸いましょう。
+                li.matter_list--item
+                  | 罵倒しない。
+        section#recruit.cmn-section.cmn-section-recruit
+          .cmn-section--in
+            h2.cmn-section--ttl
+              | メンバー募集
+            .recruit_box.cmn-fade_box
+              p.cmn-section--description
+                | 現在メンバーを募集しております。20名程度になったら募集を打ち切らせて頂く予定です。
+                | 上記を見ていただいてここで活動してみたいなと思った方は
+                a.recruit_box--link(href="#contact").
+                  こちら
+                | からお問い合わせいただければと思います。
+              div.mem_box
+                h3.mem_box--ttl
+                  | メンバー
+                ul.mem_list
+                  li.mem_list--item
+                    | イワサキ
+                    span.mem_list--club
+                      | テニス部
+                  li.mem_list--item
+                    | オオムラ
+                    span.mem_list--club
+                      | テニス部
+                  li.mem_list--item
+                    | スギウラ
+                    span.mem_list--club
+                      | バスケ部
+                  li.mem_list--item
+                    | カミヤ
+                    span.mem_list--club
+                      | 野球部
+                  li.mem_list--item
+                    | クロダ
+                    span.mem_list--club
+                      | 野球部
+                  li.mem_list--item
+                    | イワサキ
+                    span.mem_list--club
+                      | 野球部
+                  li.mem_list--item
+                    | サカキバラ
+                    span.mem_list--club
+                      | バスケ部
+                  li.mem_list--item
+                    | オギソ
+                    span.mem_list--club
+                      | テニス部
+                  li.mem_list--item
+                    | スギウラ
+                    span.mem_list--club
+                      | バスケ部
+                span.u-note
+                  | ※中学校所属していた部活動になります。
+
+        section#faq.cmn-section.cmn-section-faq
+          .cmn-section--in
+            h2.cmn-section--ttl.faq--ttl.
+              Q&A
+            dl.faq_list.cmn-fade_box
+              dt.faq_list--ttl
+                | 初心者ですが大丈夫ですか？
+              dd.faq_list--description
+                | 現在のところ3人を除いて他の部活動で活動していたメンバーですので初心者の方でも全く問題なくプレーしていただけると思います。
+                | ガチでやるようなプレーをお求めの方は他のサークルをおすすめします！
+              dt.faq_list--ttl
+                | いくらかかりますか？
+              dd.faq_list--description
+                | 参加費は参加した人数で折半する形で現在やっております。
+                span.u-strike
+                  | 安城市体育館ですと、17:00-21:00だと約3000円です。<br>
+                  | 将来的には200円程度の定額にしたいと考えております、人数が揃わなかった日は他の3000円を上回った日から補填するような形にする予定です。
+                | すいません、ハーフコートで計算してました。今後考えていきますが、少しの間は折半でいきます。
+              dt.faq_list--ttl
+                | あまり参加できないかもしれません。
+              dd.faq_list--description
+                | 月に1回以上の参加でしたら大丈夫です。一ヶ月に一度も参加できない方は大変申し訳ござんす。お断りさせていただいております。
+        section#contact.cmn-section.cmn-section-contact
+          .cmn-section--in
+            h2.cmn-section--ttl.cmn-section--ttl-contact
+              | お問い合わせ
+            .contact_box.cmn-fade_box
+              p.contact_box--txt
+                | 下記のお問い合わせフォームからお問い合わせいただくか、「スポーツやろうよ！」「Rokyu.Net」からでも受け付けておりますので。ご不明な点当ありましたら、お問い合わせ下さい。
+                span.u-note.contact_box--note
+                  | ※下記お問い合わせフォームでうまく送信されないシステムエラーが発生しています。
+                  | ２日以内に返信メールがない場合恐れ入りますが、「スポーツやろうよ！」「Rokyu.Net」からお問い合わせ下さい。
+              ul.contact_list.contact_box--list
+                li.contact_list--item.contact_list--item-ttl
+                  strong
+                    | 下記からお問い合わせ下さい。
+                li.contact_list--item
+                  a.contact_list--link(href="http://www.net-menber.com/look/data/34486.html" target="_blank")
+                    | スポーツやろうよ！
+                li.contact_list--item
+                  a.contact_list--link(href="http://www.rokyu.net/team_db_detail7321.html" target="_blank")
+                    | Rokyu.Net
+            .contact_form
+              form(action="mail.php" method="post")
+                span.contact_form--row
+                  label.contact_form--label(for="exampleInputName1").
+                    お名前
+                  input.contact_form--input(type="text" class="form-control" id="exampleInputName1" placeholder="お名前" name="name" required)
+                span.contact_form--row
+                  label.contact_form--label(for="exampleInputEmail1").
+                    メールアドレス
+                  input.contact_form--input(type="email" class="form-control" id="exampleInputEmail1" placeholder="メールアドレス" name="email" required)
+                span.contact_form--row
+                  label.contact_form--label.
+                    内容
+                  textarea.contact_form--txtarea(class="form-control" rows="3" name="message" required)
+                button.contact_form--submit(type="submit" value="SEND MESSAGE" class="btn btn-default").
+                  送信
+        footer.cmn-gl_foot
+          span.cmn-gl_foot--copy.
+            Copyright © 2016 Love Crossover All Rights Reserved.
+      a.cmn-back_top(href="#top")
+    //- a(id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Niql5q5tXlo',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}")
+
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
+    script(src="/common/js/script.js")
+    //- script(src="/common/js/jquery.youtube.js")
+
+
+
+

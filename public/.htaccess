@@ -1,0 +1,9 @@
+<IfModule mod_mime.c>
+	AddType common/fonts/opentype         .otf
+	AddType common/fonts/eot              .eot
+	AddType common/fonts/truetype         .ttf
+	AddType common/fonts/font-woff .woff
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE font/opentype font/eot font/truetype application/font-woff
+</IfModule>

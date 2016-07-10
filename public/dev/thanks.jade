@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width,initial-scale=1.0")
+    meta(charset="UTF-8")
+    meta(name="description"  content="安城市を中心に活動するとてもゆるいバスケットボールサークル。初心者から中級者までいますが基本的には初心者です。")
+    meta(name="keywords"  content="安城,バスケットボール,初心者,運動")
+    title お問い合わせ | 愛のクロスオーバー
+    link(rel="stylesheet", href="/common/css/style.css")
+    link(rel="shortcut icon", href="http://love-corssover.sub.jp/common/images/favicon.ico")
+  body
+    <?php include_once("analyticstracking.php") ?>
+    .cmn-wrap
+      header#top.cmn-gl_head
+        .cmn-gl_head--in
+          a.cmn-gl_head--logo(href="/")
+            img.cmn-gl_head--pic(src="/common/images/img-gl-head-logo.png", alt="愛のクロスオーバー")
+          nav.cmn-gl_head--nav
+            a#nav_btn.cmn-gl_head--btn_nav(href="")
+            ul.cmn-gl_nav
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#enjoy")
+                  | ENJOY
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#place")
+                  | PLACE
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#matter")
+                  | MATTER
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#recruit")
+                  | RECRUIT
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#faq")
+                  | Q&A
+              li.cmn-gl_nav--item
+                a.cmn-gl_nav--link(href="#contact")
+                  | CONTACT
+      .cmn-content
+        .thanks_box
+          strong.thanks_box--ttl
+            | お問い合わせを受け付けました。
+          p.thanks_box--txt.
+            ご記入頂いた情報は無事送信されました。<br>
+            お問い合わせいただき、ありがとうございました。
+          a.thanks_box--back_top(href="/")
+            | トップに戻る
+      footer.cmn-gl_foot
+          span.cmn-gl_foot--copy
+            Copyright © 2016 Love Crossover All Rights Reserved.
+      a.cmn-back_top(href="#top")
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
+    script(src="/common/js/script.js")
+

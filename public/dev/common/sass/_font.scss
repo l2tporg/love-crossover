@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?jxjyji');
+    src:    url('../fonts/icomoon.eot?jxjyji#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?jxjyji') format('truetype'),
+    url('../fonts/icomoon.woff?jxjyji') format('woff'),
+    url('../fonts/icomoon.svg?jxjyji#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check:before {
+    content: "\e5ca";
+}
+.icon-check_circle:before {
+    content: "\e86c";
+}
+.icon-dvr:before {
+    content: "\e1b2";
+}
+.icon-edit_location:before {
+    content: "\e568";
+}
+.icon-markunread:before {
+    content: "\e159";
+}
+.icon-favorite_border:before {
+    content: "\e87e";
+}
+.icon-filter_none:before {
+    content: "\e3e0";
+}
+.icon-font_download:before {
+    content: "\e167";
+}
+.icon-help:before {
+    content: "\e887";
+}
+.icon-help_outline:before {
+    content: "\e8fd";
+}
+.icon-highlight_off:before {
+    content: "\e888";
+}
+.icon-keyboard_arrow_right:before {
+    content: "\e315";
+}
+.icon-pan_tool:before {
+    content: "\e925";
+}
+.icon-public:before {
+    content: "\e80b";
+}
+.icon-reorder:before {
+    content: "\e8fe";
+}
+.icon-web_asset:before {
+    content: "\e069";
+}
+
